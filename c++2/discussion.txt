@@ -1,0 +1,54 @@
+Name:
+
+Timings:
+
+n = 100:
+									| fill | sort | insertNextTo |
+vector	     								   0	  1		1							 
+linked list							 	   0	  1		0						 
+doubly linked list    			 				   1	  1		0			 
+
+n = 1000:
+									| fill | sort | insertNextTo |
+vector									   1	  56		67							 
+linked list							 	   0	  55		7						 
+doubly linked list|			 				   0	 23		0			 
+
+n = 10000:
+									| fill | sort | insertNextTo |
+vector									   0	674		1234							 
+linked list							 	   1	 543		789						 
+doubly linked list|			 				   1	 2456		0			 
+
+n = 50000:
+									| fill | sort | insertNextTo |
+vector									   2	42240		26841							 
+linked list							 	   5	35565		29829						 
+doubly linked list|			 				   5	35893		4			 
+
+number of operations (in terms of n):
+									| fill | sort | insertNextTo |
+vector									  n	 n^2	        1/2nm							 
+linked list							 	  n	 n^2							 
+doubly linked list|			 				  n	 n^2		m		 
+
+
+What factors affected the runtime of each method? When should you choose a vector, a singly linked list, or a doubly linked list?
+
+vector: 
+*faster to fill for larger
+*faster fill sometimes but should not dd anything
+*not better at sorting
+*change in size cost a lot of time
+*as vector to be copied again
+
+singly linked list:
+*really need to conserve space and do not need to access node before
+
+doubly linked list:
+need to access node before roughly equivalent to singly linked list
+
+
+
+
+

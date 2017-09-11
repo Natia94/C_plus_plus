@@ -1,4 +1,4 @@
-# DATA STRUCTURE STUFF
+#  DATA STRUCTURE STUFF
  ## First assignment
  + Designed and implemeted a Vector class.
  

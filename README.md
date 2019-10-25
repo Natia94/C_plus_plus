@@ -1,9 +1,9 @@
-#  DATA STRUCTURE STUFF
- ## First assignment
- + Designed and implemeted a Vector class.
+#  DATA STRUCTURES C++
+
+## First Task
+ + Designed and implemeted a Vector class, then
  
- 
-  ## Second assignment
+## Second Task
  + Created a program that differentiates a <b> singly linked list</b>, a <b>doubly linked list</b> with a header node, and a <b>vector</b>. 
  Compares how long each task took for each container and each data size.
  + Attached discussion.txt which compares runtime of  SLL, DLL and Vector.
@@ -20,12 +20,12 @@
 #### doubly linked list:
 + need to access node before roughly equivalent to singly linked list
 
- ## Third assignment
+ ## Third Task
  + Implemented a tree with arbitrary numbers of Children
  + Added a method Serialize() which writes a tree in a text file and Deserialize() which reads a tree from a text file.
  + Tested the tree with main.cpp
 
- ## Fourth assignment
+ ## Fourth Task
  
  + Wrote the code to calculate bigram probabilities from a corpus. (pair of words)
  + Bigram probabilities are calculated by the following program:
